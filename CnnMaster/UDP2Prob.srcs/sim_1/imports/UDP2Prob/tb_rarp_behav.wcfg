@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rarp_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rarp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="143746836882fs"></ZoomStartTime>
+      <ZoomEndTime time="143989196930fs"></ZoomEndTime>
+      <Cursor1Time time="143850057000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wave_markers>
+      <marker label="" time="78860711000" />
+      <marker label="" time="16642625000" />
+      <marker label="" time="40834000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer3/full1_relu/r_led">
+      <obj_property name="ElementShortName">r_led</obj_property>
+      <obj_property name="ObjectShortName">r_led</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer3/full1_relu/full1_cmp">
+      <obj_property name="ElementShortName">full1_cmp</obj_property>
+      <obj_property name="ObjectShortName">full1_cmp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/RXBUF">
+      <obj_property name="ElementShortName">RXBUF</obj_property>
+      <obj_property name="ObjectShortName">RXBUF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/i_buf">
+      <obj_property name="ElementShortName">i_buf[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">i_buf[1023:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/sim_cnt">
+      <obj_property name="ElementShortName">sim_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/trans_prob/TXBUF">
+      <obj_property name="ElementShortName">TXBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TXBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/trans_prob/UDP_o">
+      <obj_property name="ElementShortName">UDP_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">UDP_o[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/T_Arbiter/txd_o">
+      <obj_property name="ElementShortName">txd_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">txd_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/r_crc">
+      <obj_property name="ElementShortName">r_crc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_crc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/crc_ok">
+      <obj_property name="ElementShortName">crc_ok</obj_property>
+      <obj_property name="ObjectShortName">crc_ok</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/UDP_st">
+      <obj_property name="ElementShortName">UDP_st[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UDP_st[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/rxck_90deg">
+      <obj_property name="ElementShortName">rxck_90deg</obj_property>
+      <obj_property name="ObjectShortName">rxck_90deg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/clkcnn">
+      <obj_property name="ElementShortName">clkcnn</obj_property>
+      <obj_property name="ObjectShortName">clkcnn</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group7">
+      <obj_property name="label">UDP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/st">
+      <obj_property name="ElementShortName">st[1:0]</obj_property>
+      <obj_property name="ObjectShortName">st[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/rxck_0deg">
+      <obj_property name="ElementShortName">rxck_0deg</obj_property>
+      <obj_property name="ObjectShortName">rxck_0deg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/rxck_90deg">
+      <obj_property name="ElementShortName">rxck_90deg</obj_property>
+      <obj_property name="ObjectShortName">rxck_90deg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/rxck_180deg">
+      <obj_property name="ElementShortName">rxck_180deg</obj_property>
+      <obj_property name="ObjectShortName">rxck_180deg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/clk200">
+      <obj_property name="ElementShortName">clk200</obj_property>
+      <obj_property name="ObjectShortName">clk200</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/locked">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/eth_clkgen/eth_rxck">
+      <obj_property name="ElementShortName">eth_rxck</obj_property>
+      <obj_property name="ObjectShortName">eth_rxck</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider352" type="divider">
+      <obj_property name="label">CNN_RSTGEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group364">
+      <obj_property name="label">rstgen_cnn</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/rstgen_cnn/sft">
+      <obj_property name="ElementShortName">sft[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sft[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/rstcnn">
+      <obj_property name="ElementShortName">rstcnn</obj_property>
+      <obj_property name="ObjectShortName">rstcnn</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group779">
+      <obj_property name="label">LAYER1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group341">
+         <obj_property name="label">Conv</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="divider43" type="divider">
+            <obj_property name="label">READ_PARAMS</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_rdparams/conv1_params_dout">
+            <obj_property name="ElementShortName">conv1_params_dout[255:0]</obj_property>
+            <obj_property name="ObjectShortName">conv1_params_dout[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider43" type="divider">
+            <obj_property name="label">imgcut</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/img_cutter1/px_data_x">
+            <obj_property name="ElementShortName">px_data_x[4:1]</obj_property>
+            <obj_property name="ObjectShortName">px_data_x[4:1]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/img_cutter1/px_data_y">
+            <obj_property name="ElementShortName">px_data_y[4:1]</obj_property>
+            <obj_property name="ObjectShortName">px_data_y[4:1]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/img_cutter1/px_cnt_x">
+            <obj_property name="ElementShortName">px_cnt_x</obj_property>
+            <obj_property name="ObjectShortName">px_cnt_x</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/img_cutter1/px">
+            <obj_property name="ElementShortName">px[4:0]</obj_property>
+            <obj_property name="ObjectShortName">px[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider43" type="divider">
+            <obj_property name="label">CORE</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/conv1_core/mul_valid">
+            <obj_property name="ElementShortName">mul_valid</obj_property>
+            <obj_property name="ObjectShortName">mul_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider187" type="divider">
+            <obj_property name="label">RELU</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_relu/s_addr">
+            <obj_property name="ElementShortName">s_addr[9:1]</obj_property>
+            <obj_property name="ObjectShortName">s_addr[9:1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider335" type="divider">
+            <obj_property name="label">POOL[</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/nx">
+            <obj_property name="ElementShortName">nx</obj_property>
+            <obj_property name="ObjectShortName">nx</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider757" type="divider">
+            <obj_property name="label">POOLCTRL</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/r_start">
+            <obj_property name="ElementShortName">r_start</obj_property>
+            <obj_property name="ObjectShortName">r_start</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/st">
+            <obj_property name="ElementShortName">st[3:0]</obj_property>
+            <obj_property name="ObjectShortName">st[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/pool_cnt">
+            <obj_property name="ElementShortName">pool_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">pool_cnt[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/x_cnt">
+            <obj_property name="ElementShortName">x_cnt</obj_property>
+            <obj_property name="ObjectShortName">x_cnt</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/y_cnt">
+            <obj_property name="ElementShortName">y_cnt[3:0]</obj_property>
+            <obj_property name="ObjectShortName">y_cnt[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/pool1_top/pool1_ctrl/r_led">
+            <obj_property name="ElementShortName">r_led</obj_property>
+            <obj_property name="ObjectShortName">r_led</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_start">
+            <obj_property name="ElementShortName">r_start</obj_property>
+            <obj_property name="ObjectShortName">r_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/nx">
+            <obj_property name="ElementShortName">nx</obj_property>
+            <obj_property name="ObjectShortName">nx</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_init_cyc">
+            <obj_property name="ElementShortName">r_init_cyc</obj_property>
+            <obj_property name="ObjectShortName">r_init_cyc</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u0_cyc">
+            <obj_property name="ElementShortName">r_u0_cyc[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_u0_cyc[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u1_cyc">
+            <obj_property name="ElementShortName">r_u1_cyc[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_u1_cyc[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u2_cyc">
+            <obj_property name="ElementShortName">r_u2_cyc[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_u2_cyc[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u3_cyc">
+            <obj_property name="ElementShortName">r_u3_cyc[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_u3_cyc[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u4_cyc">
+            <obj_property name="ElementShortName">r_u4_cyc[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_u4_cyc[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_u5_cyc">
+            <obj_property name="ElementShortName">r_u5_cyc</obj_property>
+            <obj_property name="ObjectShortName">r_u5_cyc</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer1/conv1_top/ctrl/r_oinit">
+            <obj_property name="ElementShortName">r_oinit</obj_property>
+            <obj_property name="ObjectShortName">r_oinit</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group779">
+      <obj_property name="label">LAYER2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group1150">
+         <obj_property name="label">Conv</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="divider190" type="divider">
+            <obj_property name="label">params</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider190" type="divider">
+            <obj_property name="label">CONVTOP</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider869" type="divider">
+            <obj_property name="label">img_cutter</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider889" type="divider">
+            <obj_property name="label">window</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider187" type="divider">
+            <obj_property name="label">RELU</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider43" type="divider">
+            <obj_property name="label">POOL</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="divider936" type="divider">
+            <obj_property name="label">CTRL</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group779">
+      <obj_property name="label">LAYER3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">READ_PARAMS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[0]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[1]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[2]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[3]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[4]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[5]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE[6]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CTRL</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">RELU</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">TOP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group779">
+      <obj_property name="label">LAYER4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">READ_PARAMS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_rdparams/addr4">
+         <obj_property name="ElementShortName">addr4[8:2]</obj_property>
+         <obj_property name="ObjectShortName">addr4[8:2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_rdparams/full2_bias_dout">
+         <obj_property name="ElementShortName">full2_bias_dout[30:0]</obj_property>
+         <obj_property name="ObjectShortName">full2_bias_dout[30:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_rdparams/full2_params_dout">
+         <obj_property name="ElementShortName">full2_params_dout[1023:0]</obj_property>
+         <obj_property name="ObjectShortName">full2_params_dout[1023:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">TOP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_top/full2_core/s_mul0">
+         <obj_property name="ElementShortName">s_mul0[41:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mul0[41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_top/full2_core/s_mul1">
+         <obj_property name="ElementShortName">s_mul1[41:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mul1[41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_top/full2_core/s_mul2">
+         <obj_property name="ElementShortName">s_mul2[41:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mul2[41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_top/full2_core/s_mul3">
+         <obj_property name="ElementShortName">s_mul3[41:0]</obj_property>
+         <obj_property name="ObjectShortName">s_mul3[41:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer4/full2_top/full2_core/r_opix_full">
+         <obj_property name="ElementShortName">r_opix_full[41:0]</obj_property>
+         <obj_property name="ObjectShortName">r_opix_full[41:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CTRL</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">RELU</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group779">
+      <obj_property name="label">LAYER5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">READ_PARAMS</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">TOP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">CORE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider43" type="divider">
+         <obj_property name="label">RESULT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/st">
+         <obj_property name="ElementShortName">st[1:0]</obj_property>
+         <obj_property name="ObjectShortName">st[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer5/ICLK">
+         <obj_property name="ElementShortName">ICLK</obj_property>
+         <obj_property name="ObjectShortName">ICLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_rarp/TOP_i/R_Arbiter/udp2cnn/LENET/layer5/lenet_result/r_lenet_result">
+         <obj_property name="ElementShortName">r_lenet_result</obj_property>
+         <obj_property name="ObjectShortName">r_lenet_result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/trans_prob/st">
+         <obj_property name="ElementShortName">st[2:0]</obj_property>
+         <obj_property name="ObjectShortName">st[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/trans_prob/TXBUF">
+         <obj_property name="ElementShortName">TXBUF[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TXBUF[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_rarp/TOP_i/R_Arbiter/trans_prob/UDP_o">
+         <obj_property name="ElementShortName">UDP_o[8:0]</obj_property>
+         <obj_property name="ObjectShortName">UDP_o[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_rarp/testclk125">
+         <obj_property name="ElementShortName">testclk125</obj_property>
+         <obj_property name="ObjectShortName">testclk125</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_rarp/teststart">
+         <obj_property name="ElementShortName">teststart</obj_property>
+         <obj_property name="ObjectShortName">teststart</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_rarp/testclk30">
+         <obj_property name="ElementShortName">testclk30</obj_property>
+         <obj_property name="ObjectShortName">testclk30</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
